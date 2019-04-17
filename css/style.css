@@ -1,0 +1,118 @@
+/* ヘッダー  */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+  
+    
+}
+
+.menue img{
+    height: 60px;
+    width: 190px;
+}
+
+.menue ul{
+    display: flex;
+    align-items: center;
+    font-family:  "UD Digi Kyokasho N-B";
+    
+}
+    
+.link li{
+    margin-right: 30px;
+}   
+
+.link:last-child{
+    margin-right: 0;
+    
+}
+
+/* メイン */
+main{
+    background-image: url(../img/whitepaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.font{
+    font-family:  "UD Digi Kyokasho N-B";
+}
+
+h1{
+    color:blue;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+.main-left img{
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.main-right{
+    padding: 20px;
+}
+
+.main-right-top>li{
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 40px;
+    
+}
+
+.main-right-top li:first-child{
+    margin-top: 0px;
+}
+span{
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.list-icon{
+    width: 60px;
+    height: 60px;
+}
+
+ button{
+    background-color: aquamarine;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border-color: blue;
+    font-size: 30px; 
+    margin-top: 40px;
+    transition: all 1s ease;
+    
+} 
+
+.btn{
+    animation: fadein 5s ease-in
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        margin-right: 250px;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+ 
+ 
+.btn:hover{
+    background-color: blue;
+    color: beige;
+    cursor: pointer;
+}

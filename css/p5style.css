@@ -1,0 +1,145 @@
+.container{
+    /* margin: 0 auto; */
+    width: 100%;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+h1{
+    font-style: italic;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+    /* background-color: white; */
+    width: 200px;
+    color: red;
+    padding: 10px;
+    margin-right: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+li:last-child{
+    margin-right: 0;
+}
+
+/* pallax  */
+
+.img1{
+    background-image: url(../img/L1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.img2{
+    background-image: url(../img/L2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.img3{
+    background-image: url(../img/L3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.img4{
+    background-image: url(../img/L4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.img5{
+    background-image: url(../img/L5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.bar{
+    padding: 20px;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    height: 500px;
+    
+}
+
+/* Footer */
+
+.contact{
+    /* width: 700px; */
+    margin: 0 auto;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+fieldset{
+    border: none;
+}
+
+.feild{
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    margin: 20px 20px;
+}
+
+.inquiry{
+    height: 100px;
+    width: 200px;
+    margin: 20px 20px;
+    font-size: 15px;
+}
+
+h2{
+    text-align: center;
+    background-color: aquamarine;
+    margin:0;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btn{
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    width: 70px;
+    color: white;
+}
+
+.form-box{
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: yellow;
+    cursor: pointer;
+}
